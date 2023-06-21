@@ -38,6 +38,9 @@ const App = () => {
     mixBlendMode: 'exclusion'
 
   }}
+  clickables={[
+    '.cursor-pointer'
+  ]}
       />
 
       {isLoading ? (

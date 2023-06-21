@@ -11,6 +11,29 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
+  cursor: auto;
+}
+
+/* Scroll bar styles */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to top, #ec008c, #fc6767);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #00cea8 1.9%, #bf61ff 97.5%);
 }
 
 .hash-span {
@@ -252,7 +275,6 @@
   /* Add other styling properties for the navbar */
 }
 
-
 .model-outer {
   background-color: #000000a1;
   height: 100vh;
@@ -294,12 +316,12 @@
 }
 .loader-2::after,
 .loader-2::before {
-  content: '';  
+  content: "";
   box-sizing: border-box;
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  border: 2px solid #FFF;
+  border: 2px solid #fff;
   position: absolute;
   left: 0;
   top: 0;
@@ -319,4 +341,3 @@
     opacity: 0;
   }
 }
-      

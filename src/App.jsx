@@ -25,17 +25,19 @@ const App = () => {
   return (
     <BrowserRouter>
       <AnimatedCursor
+  innerSize={8}
+  outerSize={35}
+  innerScale={1}
+  outerScale={2}
+  outerAlpha={0}
+  innerStyle={{
+    backgroundColor: '#fff'
+  }}
+  outerStyle={{
+    border: '3px solid #fff',
+    mixBlendMode: 'exclusion'
 
-        innerSize={15}
-        outerSize={30}
-        trailingSpeed={10}
-        outerStyle={{
-          border: "3px solid #A0AEC0",
-          mixBlendMode: 'exclusion'
-        }}
-        innerStyle={{
-          backgroundColor: "#fff",
-        }}
+  }}
       />
 
       {isLoading ? (

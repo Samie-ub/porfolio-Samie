@@ -123,10 +123,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "November 2019 - June 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developed user interfaces (UI) based on design mockups and wireframes, utilizing HTML, CSS, and JavaScript/jQuery.",
+      "Created responsive websites, ensuring optimal user experience across devices and screen sizes.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Ensured cross-browser compatibility by testing and debugging websites on various browsers",
     ],
   },
   {
@@ -136,10 +136,12 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Jan 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "React: Utilized React framework to build interactive and dynamic user interfaces, enabling efficient component-based development.",
+      "Blockchain Development: Applied blockchain technology to develop decentralized applications (DApps) and smart contracts using frameworks like Ethereum or Hyperledger.",
+      "Web3 Integration: Integrated Web3 libraries (such as Web3.js) with React applications to interact with blockchain networks and smart contracts.",
+      "State Management: Leveraged React state management libraries like Redux or Context API to handle complex application states in blockchain development.",
+      "Smart Contract Development: Developed and deployed smart contracts using Solidity or other blockchain-specific languages, enabling secure and trustless transactions.",
+      "Blockchain API Integration: Integrated blockchain APIs (such as Ethereum API) with React applications to retrieve blockchain data and interact with smart contracts."
     ],
   },
   {
@@ -149,23 +151,24 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "UX Design: Creating user-centered designs through research, wireframing, and user flows.",
+      "UI Design: Developing visually appealing interfaces that align with brand identity and usability standards.",
+      "Website Development: Translating design concepts into functional websites using HTML, CSS, and JavaScript.",
+      "Client Collaboration: Communicating with clients, providing recommendations, and delivering high-quality work within deadlines.",
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "Full stack And Desktop Application Developer",
     company_name: "Arbob Tech Team",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Full Stack Development: Expertise in both front-end and back-end development for native desktop applications.",
+      "Desktop Application Development: Building robust and user-friendly desktop applications using frameworks like Electron, PyQt, or JavaFX.",
+      "UI Design: Creating intuitive and visually appealing interfaces for desktop applications.",
+      "Cross-Platform Compatibility: Ensuring desktop applications work seamlessly across multiple operating systems (Windows, macOS, Linux).",
+      "Testing and Debugging: Conducting thorough testing and debugging to ensure functionality, performance, and security standards are met."
     ],
   },
 ];
@@ -222,10 +225,10 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://market-place-pink.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "HOM Website",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -243,7 +246,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://hom-website.vercel.app/",
   },
 ];
 

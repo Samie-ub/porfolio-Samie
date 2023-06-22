@@ -12,6 +12,7 @@
   scroll-behavior: smooth;
   color-scheme: dark;
   cursor: auto;
+  scroll-behavior: smooth;
 }
 
 body{
@@ -345,4 +346,8 @@ body{
     transform: scale(1);
     opacity: 0;
   }
+}
+
+.layout-cursor{
+  cursor: pointer !important;
 }

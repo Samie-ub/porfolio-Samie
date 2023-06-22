@@ -351,3 +351,11 @@ body{
 .layout-cursor{
   cursor: pointer !important;
 }
+
+.contact-form-bg{
+  background: linear-gradient(
+    to bottom,
+    #d4c4c1bb,
+    #294b7fb2
+  );
+}

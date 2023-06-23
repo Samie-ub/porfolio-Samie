@@ -15,10 +15,6 @@
   scroll-behavior: smooth;
 }
 
-body{
-  
-}
-
 /* Scroll bar styles */
 /* width */
 ::-webkit-scrollbar {
@@ -357,5 +353,13 @@ body{
     to bottom,
     #d4c4c1bb,
     #294b7fb2
+  );
+}
+
+.mob-nav-gradient{
+  background: linear-gradient(
+    to bottom,
+    #1a1919,
+    #070707
   );
 }
